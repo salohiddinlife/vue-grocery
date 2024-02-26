@@ -1,0 +1,67 @@
+@import "./vars.scss",
+"./font.scss",
+"./effect.scss",
+"./header.scss",
+"./scrollbar.scss",
+"@/components/Footer/Footer.scss",
+"@/components/Header/Header.scss",
+"@/components/Clothing/Clothing.scss",
+"@/components/ClothingProducts/ClothingProducts.scss",
+"@/components/Sorting/Sorting.scss"
+;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Causten";
+  font-weight: 500;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+section {
+  max-width: 1385px;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #e7f6ff;
+  
+}
+#app {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+.wrapper{
+  max-width: 1080px;
+  width: 100%;
+  margin: 85px auto 0;
+  background-color: #fff;
+  border-radius: 20px;
+  min-height: 100vh;
+  padding-bottom: 30px
+}

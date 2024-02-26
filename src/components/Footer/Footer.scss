@@ -1,0 +1,14 @@
+.footer {
+    background: rgb(60, 66, 66);
+    max-width: 1440px;
+    width: 100%;
+    height: 100%;
+
+    & .container {
+        margin: 0 auto;
+        max-width: 1220px;
+        width: 100%;
+    }
+
+    
+}

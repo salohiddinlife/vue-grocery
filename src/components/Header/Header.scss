@@ -1,0 +1,59 @@
+.header {
+    padding: 20px 60px 20px 60px;
+    font-family: 'Inter';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eaeaea;
+
+    &__logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &-img {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+        }
+
+        &-title {
+            font-weight: 700;
+            font-size: 20px;
+            color: #000;
+        }
+
+        &-subtitle {
+            font-weight: 400;
+            font-size: 14px;
+            color: #9d9d9d;
+        }
+    }
+    &__nav{
+        &-list{
+            display: flex;
+            gap: 30px;
+            
+        }
+    }
+}
+
+.cart-btn{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    & span{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 14px;
+    color: #5c5c5c;
+}
+}

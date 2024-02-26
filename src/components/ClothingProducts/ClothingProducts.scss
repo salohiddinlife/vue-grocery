@@ -1,0 +1,96 @@
+.clothing__header {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 60px ;
+    z-index: 77;
+    &-title {
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 32px;
+        color: #000;
+        text-transform: capitalize;
+    }
+}
+.clothing__products {
+    align-self: center;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 50px;
+    column-gap: 20px;
+    max-width: 894px;
+    &-item {
+        position: relative;
+        max-width: 282px;
+        max-height: 441px;
+
+        &-heart {
+            border-radius: 50%;
+            width: 32.36px;
+            height: 32.36px;
+            background: rgb(255, 255, 255);
+            border: 1px solid grey;
+            display: grid;
+            place-items: center;
+            position: absolute;
+            top: 26px;
+            right: 20px;
+            z-index: 55;
+            & img{
+                width: 15px;
+                height: 15px;
+            }
+        }
+
+        &-img {
+            max-width: 282px;
+            max-height: 370px;
+            min-height: 370px;
+            overflow: hidden;
+            border-radius: 12px;
+        }
+
+        &-descr {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+
+            & h2 {
+                color: rgb(60, 66, 66);
+                font-family: Causten;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 19px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+
+            & p {
+                color: rgb(128, 125, 126);
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 17px;
+            }
+
+
+        }
+
+        &-price {
+            border-radius: 8px;
+            background: rgb(246, 246, 246);
+            width: 82.31px;
+            height: 36.58px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            & p {
+                color: rgb(60, 66, 66);
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 17px;
+            }
+        }
+    }
+}

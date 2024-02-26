@@ -1,0 +1,130 @@
+/* Causten Font Family */
+@font-face {
+    font-family: 'Causten';
+    src: url('@/assets/fonts/Causten/Causten-Regular.otf');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Causten';
+    src: url('@/assets/fonts/Causten/Causten-Bold.otf');
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Causten';
+    src: url('@/assets/fonts/Causten/Causten-Light.otf');
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Causten';
+    src: url('@/assets/fonts/Causten/Causten-Medium.otf');
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Causten';
+    src: url('@/assets/fonts/Causten/Causten-SemiBold.otf');
+    font-style: normal;
+    font-weight: 600;
+}
+
+/* Core Sans C Font Family */
+@font-face {
+    font-family: 'Core';
+    src: url('@/assets/fonts/corefonts/CoreSansC-45Regular.ttf');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Core';
+    src: url('@/assets/fonts/corefonts/CoreSansC-55medium.ttf');
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Core';
+    src: url('@/assets/fonts/corefonts/CoreSansC-85Heavy.ttf');
+    font-style: normal;
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'Core';
+    src: url('@/assets/fonts/corefonts/CoreSansC-65Bold.ttf');
+    font-style: normal;
+    font-weight: 600;
+}
+
+/* Repeat @font-face rules for other Core Sans C weights */
+
+/* Manrope Font Family */
+@font-face {
+    font-family: 'Manrope';
+    src: url('@/assets/fonts/Manrope/Manrope-Regular.ttf');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Manrope';
+    src: url('@/assets/fonts/Manrope/Manrope-Regular.ttf');
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
+/* Mintaka Font Family */
+@font-face {
+    font-family: 'Mintaka';
+    src: url('@/assets/fonts/Mintaka.ttf');
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Montserrat Font Family */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('@/assets/fonts/Montserrat/Montserrat-ExtraBold.ttf');
+    font-style: normal;
+    font-weight: 800;
+}
+
+/* Poppins Font Family */
+@font-face {
+    font-family: 'Poppins';
+    src: url('@/assets/fonts/Poppins/Poppins-Medium.ttf');
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* Roboto Font Family */
+@font-face {
+    font-family: 'Roboto';
+    src: url('@/assets/fonts/Roboto/Roboto-Regular.ttf');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('@/assets/fonts/Roboto/Roboto-Bold.ttf');
+    font-style: normal;
+    font-weight: 700;
+}
+
+$Montserrat: ('Inter-Bold', 700),
+             ('Inter-SemiBold', 701),
+             ('Inter-Regular', 400);
+
+@each $name, $weight in $Montserrat {
+    @font-face {
+        font-family: 'Inter';
+        src: url('@/assets/fonts/Inter/#{$name}.ttf');
+        font-weight: $weight;
+    }
+}
